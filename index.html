@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primero Comer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <!--
+// v0 by Vercel.
+// https://v0.dev/t/p05meCIRdXh
+-->
+    <div class="flex flex-col min-h-screen bg-gray-900 text-white">
+        <header class="px-4 py-6 bg-gray-800 shadow">
+            <div class="flex items-center justify-between"><a class="text-lg font-bold text-orange-500" href="#"
+                    rel="ugc"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" class="w-4 h-4 mr-2 text-orange-300">
+                        <path d="M5 18H3c-.6 0-1-.4-1-1V7c0-.6.4-1 1-1h10c.6 0 1 .4 1 1v11"></path>
+                        <path d="M14 9h4l4 4v4c0 .6-.4 1-1 1h-2"></path>
+                        <circle cx="7" cy="18" r="2"></circle>
+                        <path d="M15 18H9"></path>
+                        <circle cx="17" cy="18" r="2"></circle>
+                    </svg><span>EntregaApp</span></a>
+                <nav class="space-x-4"><a class="text-gray-400 hover:text-orange-500" href="#" rel="ugc">
+                        Acerca de
+                    </a><a class="text-gray-400 hover:text-orange-500" href="#" rel="ugc">
+                        Servicios
+                    </a><a class="text-gray-400 hover:text-orange-500" href="#" rel="ugc">
+                        Contacto
+                    </a></nav>
+            </div>
+        </header>
+        <main class="flex-1">
+            <section class="px-4 py-20 text-center">
+                <h1 class="text-3xl font-semibold text-orange-500">Entregas rápidas y confiables</h1>
+                <p class="mt-4 text-gray-400">Disfruta de un servicio de entrega rápido y confiable con EntregaApp.</p>
+                <button
+                    class="inline-flex items-center justify-center text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 h-10 mt-6 px-8 py-3 text-black bg-orange-500 rounded-full">Comienza
+                    ahora</button>
+            </section>
+            <section class="px-4 py-20 bg-gray-800">
+                <h2 class="text-2xl font-semibold text-center text-orange-500">Nuestros servicios</h2>
+                <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+                    <div class="rounded-lg border text-card-foreground shadow-sm bg-gray-800" data-v0-t="card">
+                        <div class="p-6 flex items-center space-x-4"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" class="w-12 h-12 text-orange-300">
+                                <path d="m7.5 4.27 9 5.15"></path>
+                                <path
+                                    d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z">
+                                </path>
+                                <path d="m3.3 7 8.7 5 8.7-5"></path>
+                                <path d="M12 22V12"></path>
+                            </svg>
+                            <div>
+                                <h3 class="text-lg font-semibold text-orange-500">Entrega de paquetes</h3>
+                                <p class="text-gray-400">Entregamos tus paquetes de forma segura y eficiente.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rounded-lg border text-card-foreground shadow-sm bg-gray-800" data-v0-t="card">
+                        <div class="p-6 flex items-center space-x-4"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" class="w-12 h-12 text-orange-300">
+                                <line x1="4" x2="20" y1="12" y2="12"></line>
+                                <line x1="4" x2="20" y1="6" y2="6"></line>
+                                <line x1="4" x2="20" y1="18" y2="18"></line>
+                            </svg>
+                            <div>
+                                <h3 class="text-lg font-semibold text-orange-500">Entrega de alimentos</h3>
+                                <p class="text-gray-400">Entregamos tus alimentos frescos y calientes.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rounded-lg border text-card-foreground shadow-sm bg-gray-800" data-v0-t="card">
+                        <div class="p-6 flex items-center space-x-4"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" class="w-12 h-12 text-orange-300">
+                                <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+                                <polyline points="14 2 14 8 20 8"></polyline>
+                            </svg>
+                            <div>
+                                <h3 class="text-lg font-semibold text-orange-500">Entrega de documentos</h3>
+                                <p class="text-gray-400">Entregamos tus documentos importantes de forma segura.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rounded-lg border text-card-foreground shadow-sm bg-gray-800" data-v0-t="card">
+                        <div class="p-6 flex items-center space-x-4"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" class="w-12 h-12 text-orange-300">
+                                <circle cx="8" cy="21" r="1"></circle>
+                                <circle cx="19" cy="21" r="1"></circle>
+                                <path
+                                    d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12">
+                                </path>
+                            </svg>
+                            <div>
+                                <h3 class="text-lg font-semibold text-orange-500">Entrega de comestibles</h3>
+                                <p class="text-gray-400">Entregamos tus comestibles directamente a tu puerta.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="px-4 py-20">
+                <h2 class="text-2xl font-semibold text-center text-orange-500">Por qué elegirnos</h2>
+                <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                    <div class="rounded-lg border text-card-foreground shadow-sm bg-gray-800" data-v0-t="card">
+                        <div class="p-6">
+                            <h3 class="text-lg font-semibold text-orange-500">Rápido</h3>
+                            <p class="mt-2 text-gray-400">Proporcionamos un servicio de entrega muy rápido.</p>
+                        </div>
+                    </div>
+                    <div class="rounded-lg border text-card-foreground shadow-sm bg-gray-800" data-v0-t="card">
+                        <div class="p-6">
+                            <h3 class="text-lg font-semibold text-orange-500">Seguro</h3>
+                            <p class="mt-2 text-gray-400">Nos aseguramos de que tus entregas sean seguras.</p>
+                        </div>
+                    </div>
+                    <div class="rounded-lg border text-card-foreground shadow-sm bg-gray-800" data-v0-t="card">
+                        <div class="p-6">
+                            <h3 class="text-lg font-semibold text-orange-500">Asequible</h3>
+                            <p class="mt-2 text-gray-400">Nuestros precios son asequibles y competitivos.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="px-4 py-6 bg-gray-800">
+            <div class="flex items-center justify-between">
+                <div><a class="text-lg font-bold text-orange-500" href="#" rel="ugc"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="w-4 h-4 mr-2 text-orange-300">
+                            <path d="M5 18H3c-.6 0-1-.4-1-1V7c0-.6.4-1 1-1h10c.6 0 1 .4 1 1v11"></path>
+                            <path d="M14 9h4l4 4v4c0 .6-.4 1-1 1h-2"></path>
+                            <circle cx="7" cy="18" r="2"></circle>
+                            <path d="M15 18H9"></path>
+                            <circle cx="17" cy="18" r="2"></circle>
+                        </svg><span>EntregaApp</span></a></div>
+                <div class="space-x-4"><a class="text-gray-400 hover:text-orange-500" href="#" rel="ugc">
+                        Acerca de
+                    </a><a class="text-gray-400 hover:text-orange-500" href="#" rel="ugc">
+                        Servicios
+                    </a><a class="text-gray-400 hover:text-orange-500" href="#" rel="ugc">
+                        Contacto
+                    </a></div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
